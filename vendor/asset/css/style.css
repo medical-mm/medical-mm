@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "mm";
+    font-weight: normal;
+    src: url("MyanmarSagar.ttf");
+}
+*{
+    font-family: Poppins,mm;
+}
+
+.cus-logo{
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%;
+}
+
+.cus-card{
+    /*border: none!important;*/
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border-radius: 15.25px!important;
+}
+
+.cus-card-img{
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.cus-feft{
+    height: 100vh!important;
+    overflow: auto;
+}
+.dataTables_filter{
+    float: right !important;
+    margin-bottom: 10px!important;
+}
+.form-control{
+    border-radius: 10px!important;
+}
+
+.dataTables_filter>label{
+    font-size: 15px!important;
+}
+
+.dataTables_paginate {
+    float: right !important;
+    border-radius: 10px!important;
+}
+
+.dataTables_paginate .page-link{
+    font-size: 12px!important;
+}
+.o-n:focus{
+    outline: none!important;
+    border: 0!important;
+}
